@@ -53,7 +53,21 @@
 ## git merge --squash develop 使用squash方式合并代码，只是合并不commit【合并develop时会有很多commit记录信息一起被保留下来，使用squash将不会保留commit信息，只是简单的合并代码，并且合并的代码没有提交，将所有develop的提交整合到了暂存区，需要我们自己执行Commit, 这样保证主分支的提交记录干净整洁】
 
 
+# git 标签管理（标签管理就是给自己的代码打上版本标记。其实就是给自己的版本设置里程碑。）
 
+## git tag 查看打标签
+
+## git tag v1.0  将最新提交打上标签v1.0
+
+## git tag v1.0 4854541 将指定的commit记录打上标签
+
+## git show v0.9 查看与v0.9标签之间的差距
+
+
+# git 远程仓库
+
+## 添加远程分支
+### git remote add origin git@github.com:lvsechoudaizi/git-preview-practice.git
 
 
 
