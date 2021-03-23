@@ -69,6 +69,13 @@
 ## 添加远程分支
 ### git remote add origin git@github.com:lvsechoudaizi/git-preview-practice.git
 
+## git push  推送本地仓库代码到远程仓库
+
+## git pull 拉取远程仓库代码到工作区
+
+## git fetch 拉取源
+
+
 
 
 
