@@ -36,6 +36,19 @@
 
 ## git checkout -b develop 创建develop分支并切换分支到develop
 
+## git checkout master 检出【切换】master分支
+
+## git merge develop 合并分支，将develop分支合并到当前分支
+
+## git merge -d develop 合并develop分支的同时删除develop分支
+
+## git branch 查看分支
+
+## git branch -a 查看分支，包括远程分支
+
+## git branch -d develop 删除develop分支
+
+
 
 
 
