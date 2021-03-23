@@ -50,6 +50,7 @@
 
 # git 清洗提交历史--squash方式合并
 
+## git merge --squash develop 使用squash方式合并代码，只是合并不commit【合并develop时会有很多commit记录信息一起被保留下来，使用squash将不会保留commit信息，只是简单的合并代码，并且合并的代码没有提交，将所有develop的提交整合到了暂存区，需要我们自己执行Commit, 这样保证主分支的提交记录干净整洁】
 
 
 
