@@ -48,6 +48,10 @@
 
 ## git branch -d develop 删除develop分支
 
+# git 清洗提交历史--squash方式合并
+
+
+
 
 
 
