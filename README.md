@@ -19,9 +19,9 @@
 
 #### git reflog  操作记录 包括回退记录也会被显示
 
-#### git reset HEAD@{} 版本回退，不更新工作区
+#### git reset HEAD@{} 版本回退，不更新工作区（用的少）
 
-#### git reset --hard HEAD@{} 版本回退，并且更新工作区的文件到回退的版本
+#### git reset --hard HEAD@{} 版本回退，并且更新工作区的文件到回退的版本（用的多，因为版本回退通常都是需要更新工作区文件的）
 
 
 # git认识
@@ -65,15 +65,19 @@
 
 
 # git 远程仓库
+### 1.Github 世界上最大的开源社区/2.Gitee 国内速度快/3.GitLab 私有的远程仓库
 
 #### 添加远程分支
 ##### git remote add origin git@github.com:lvsechoudaizi/git-preview-practice.git
 
 #### git push  推送本地仓库代码到远程仓库
 
-#### git pull 拉取远程仓库代码到工作区
+#### git pull 拉取远程仓库代码到工作区（fetch/）
 
-#### git fetch 拉取源
+#### git fetch 拉取源（远程仓库的内容拉回到本地仓库）
+
+#### git clone 拉取 （本地仓库不存在的情况下，远程仓库的内容一比一的克隆复制到本地，产生本地仓库）
+
 
 
 
